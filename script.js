@@ -1,10 +1,4 @@
-function scrollToContact() {
-  document.getElementById("contact").scrollIntoView({
-    behavior: "smooth"
-  });
-}
-
 function submitForm(event) {
   event.preventDefault();
-  alert("Thank you! We will contact you soon.");
+  alert("Thanks! We’ll contact you shortly 🚀");
 }
