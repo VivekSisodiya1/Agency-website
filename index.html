@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vivek Media | Digital Growth Agency</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="logo">Vivek<span>Media</span></div>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="hero" id="home">
+    <h1>Grow Your Business With Smart Marketing</h1>
+    <p>We help brands generate leads, sales & visibility using paid ads and strategy.</p>
+    <button onclick="scrollToContact()">Get Started</button>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="services" id="services">
+    <h2>Our Services</h2>
+
+    <div class="service-grid">
+      <div class="card">
+        <h3>Facebook & Instagram Ads</h3>
+        <p>Targeted ads to reach customers ready to buy.</p>
+      </div>
+      <div class="card">
+        <h3>Google Ads</h3>
+        <p>Appear on top when customers search for you.</p>
+      </div>
+      <div class="card">
+        <h3>Lead Generation</h3>
+        <p>High-quality leads for local & online businesses.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <h2>Contact Us</h2>
+    <form onsubmit="submitForm(event)">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    © 2026 Vivek Media. All rights reserved.
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
